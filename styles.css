@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=Merriweather:ital,wght@0,300;0,400;0,700;0,900;1,300;1,400;1,700;1,900&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+
 /*////////////////////////
     Table of Contents
     1. Global Styles
@@ -12,9 +14,31 @@
     5. Media Queries
 ////////////////////////*/
 
+/*Paars #5722CD;*/
+/*Blauw #4845E4;*/
+/*Roze #ED4385;*/
+/*Zwart #0C0C0C (voor standaard tekst);*/
+/*Lichtpaars #F2F0FF (voor de grote zwevende woorden, zoals "hello" en "services") */
+/*Uitzonderingen:*/
+/*Lichtgrijs #F3F6F9 (voor de achtergrond van de projecten)*/
+/*Grijs #7A7A7A (voor de service-tegel tekst);*/
+
 /* ------------------------------- 1. Global Styles -------------------------------- */
+* {
+    margin: 0 0;
+    padding: 0 0;
+    box-sizing: border-box;
+}
 
 /* ------------------------------- 2. Typography ----------------------------------- */
+body {
+    font-family: 'Roboto', sans-serif;
+}
+
+h1, h2, h3, h4 {
+    font-family: 'Merriweather', serif;
+
+}
 
 /* ------------------------------- 3. Layout --------------------------------------- */
 
